@@ -40,7 +40,8 @@ html {
 
 .h2-container-2 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .pilar-h2 {
@@ -258,10 +259,3 @@ html {
     flex-direction: column;
     align-items: center;
 }
-
-@media (min-width: 1024px) {
-    .main-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 30px;
-    }

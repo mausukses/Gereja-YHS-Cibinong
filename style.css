@@ -22,10 +22,10 @@ html {
 }
 
 .li-NAVBAR {
-    Padding: 20px;
+    Padding: 10px;
     margin: 10px;
     color:white;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
 }
 
@@ -259,3 +259,4 @@ html {
     flex-direction: column;
     align-items: center;
 }
+

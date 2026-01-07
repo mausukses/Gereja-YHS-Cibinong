@@ -4,6 +4,12 @@ html {
     padding: 0;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
 .image-navbar {
     background-color: rgb(83, 82, 82);
     float: left;
@@ -257,4 +263,5 @@ html {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
 }

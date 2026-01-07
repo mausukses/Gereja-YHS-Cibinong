@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
 }
+
 .image-navbar {
     background-color: rgb(83, 82, 82);
     float: left;
@@ -62,7 +63,7 @@ html {
 .container3-h1 {
     border: 4px solid rgb(66, 54, 54);
     border-radius: 20px;
-    width: 20%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -256,6 +257,38 @@ html {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
 }
 
+@media (min-width: 1024px) {
+    .main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+    
+    .container-2 {
+        padding: 30px;
+        margin: 30px 0;
+    }
+    
+    .h2-container-2 {
+        font-size: 1.8rem;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 kolom di desktop */
+    }
+    
+    .gallery-img {
+        height: 280px;
+    }
+    
+    .activities-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 kolom di desktop */
+        gap: 20px;
+    }
+    
+    .activity-img {
+        height: 180px;
+    }
+}

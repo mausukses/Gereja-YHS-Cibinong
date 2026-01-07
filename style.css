@@ -3,13 +3,6 @@ html {
     margin: 0;
     padding: 0;
 }
-
-body {
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
 .image-navbar {
     background-color: rgb(83, 82, 82);
     float: left;
@@ -265,3 +258,4 @@ body {
     align-items: center;
 
 }
+
